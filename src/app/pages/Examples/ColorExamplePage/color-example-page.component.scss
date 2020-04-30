@@ -1,0 +1,8 @@
+@import '../../../styles/colours.scss';
+
+.special-div {
+    // Set color to variable in colours.scss
+    background-color: $my-custom-color;
+    width: 100px;
+    height: 100px;
+}

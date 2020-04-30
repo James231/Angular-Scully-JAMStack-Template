@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'colours.scss';
+
+* {
+    font-family: Arial;
+}
+
+/*
+    Add these classes to any element to draw an outline around them
+    Useful for debugging layouts
+*/
+
+.debug-blue {
+    border-color: #0012FF;
+    border-width: 2px;
+}
+
+.debug-red {
+    border-color: #FF0008;
+    border-width: 2px;
+}
+
+.debug-green {
+    border-color: #00CC3D;
+    border-width: 2px;
+}
